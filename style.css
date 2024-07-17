@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+    margin-top: 30%;
+    background-color: black;
+}
+h1{
+    width:100%;
+    height:auto;
+    font-size: 100px;
+    color:white;
+}
+span{
+    display:flex;
+    justify-content: space-between;
+    
+}
+#prev{
+    position:absolute;
+    top:50%;
+    left:0;
+    margin:20px;
+}
+#nxt{
+    position:absolute;
+    top:50%;
+    right:0;
+    margin:20px;
+}
+button{
+    font-size: 22px;
+}
