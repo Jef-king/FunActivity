@@ -1,22 +1,22 @@
 body{
-    text-align: center;
-    margin-top: 30%;
     background-color: black;
 }
+div{
+    
+}
 h1{
+    text-align: center;
     width:100%;
     height:auto;
     font-size: 100px;
     color:white;
-}
-span{
-    display:flex;
-    justify-content: space-between;
-    
+    margin: 0;
+position: absolute;
+top: 40%;
 }
 #prev{
     position:absolute;
-    top:50%;
+    top:30%;
     left:0;
     margin:20px;
 }
