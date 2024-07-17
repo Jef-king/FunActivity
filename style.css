@@ -1,28 +1,29 @@
 body{
+    text-align: center;
     background-color: black;
 }
-div{
-    
-}
 h1{
-    text-align: center;
+    position:absolute;
+    top:30%;
     width:100%;
     height:auto;
     font-size: 100px;
     color:white;
-    margin: 0;
-position: absolute;
-top: 40%;
+}
+span{
+    display:flex;
+    justify-content: space-between;
+    
 }
 #prev{
     position:absolute;
-    top:30%;
+    top:70%;
     left:0;
     margin:20px;
 }
 #nxt{
     position:absolute;
-    top:50%;
+    top:70%;
     right:0;
     margin:20px;
 }
